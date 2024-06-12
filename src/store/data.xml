@@ -1,0 +1,22 @@
+<FatturaEnergia>
+    <FatturaEnergiaHeader>
+        <DatiFattura>
+            <NumeroFattura>EE0FAT120005890-2020</NumeroFattura>
+            <IdDocumento>1139008</IdDocumento>
+            <DataEmissione>2020-02-17</DataEmissione>
+            <TipoDocumento>FAT</TipoDocumento>
+            <FatturaChiusura>0</FatturaChiusura>
+            <FatturaConsumiStimati>
+                <RigaConsumiStimati IdSito="3951" Mese="1" Anno="2020">0</RigaConsumiStimati>
+                <RigaConsumiStimati IdSito="3950" Mese="12" Anno="2019">0</RigaConsumiStimati>
+                <RigaConsumiStimati IdSito="3951" Mese="12" Anno="2019">0</RigaConsumiStimati>
+                <RigaConsumiStimati IdSito="3950" Mese="1" Anno="2020">0</RigaConsumiStimati>
+            </FatturaConsumiStimati>
+            <IdModoPagamento>RID</IdModoPagamento>
+            <ModoPagamento>RID ADDEBITO DIRETTO IN CONTO (B2B)</ModoPagamento>
+            <SoloRicalcoli>0</SoloRicalcoli>
+            <SommaConsumi>220</SommaConsumi>
+            <TotaleScontoScon>0.00</TotaleScontoScon>
+        </DatiFattura>
+    </FatturaEnergiaHeader>
+</FatturaEnergia>

@@ -4,6 +4,7 @@ import { EditorConfig } from './editor/config/config';
 import PluginManager, { Plugin, getPlugin, logPluginWarn } from './plugin_manager';
 import $ from './utils/cash-dom';
 import polyfills from './utils/polyfills';
+import { getXMLData } from './store/readXML';
 
 interface InitEditorConfig extends EditorConfig {
   grapesjs?: typeof grapesjs;
@@ -26,10 +27,16 @@ export const usePlugin = <P extends Plugin<any> | string>(plugin: P, opts?: P ex
   };
 };
 
+export const xmlData = {
+  getXMLData: () => getXMLData(),
+};
+
 export const grapesjs = {
   $,
 
   editors,
+
+  xmlData,
 
   plugins,
 
