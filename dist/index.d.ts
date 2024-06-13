@@ -12768,9 +12768,15 @@ export declare class PropertySlider extends PropertyNumber {
 export declare const usePlugin: <P extends string | Plugin<any>>(plugin: P, opts?: (P extends Plugin<infer C extends {
 	[x: string]: any;
 }> ? C : {}) | undefined) => (editor: Editor) => void;
+export declare const xmlData: {
+	getXMLData: () => Promise<Document>;
+};
 export declare const grapesjs: {
 	$: any;
 	editors: Editor[];
+	xmlData: {
+		getXMLData: () => Promise<Document>;
+	};
 	plugins: PluginManager;
 	usePlugin: <P extends string | Plugin<any>>(plugin: P, opts?: (P extends Plugin<infer C extends {
 		[x: string]: any;
