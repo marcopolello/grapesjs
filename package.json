@@ -40,7 +40,6 @@
     "codemirror-formatting": "^1.0.0",
     "fs": "^0.0.1-security",
     "grapesjs-blocks-basic": "^1.0.2",
-    "grapesjs-echarts": "^0.0.20",
     "promise-polyfill": "^8.1.3",
     "underscore": "^1.13.1"
   },
